@@ -12,7 +12,6 @@ html {
 
 a {
   color: #568c36;
-  text-decoration: none;
 }
 
 a:hover {
@@ -26,7 +25,6 @@ a:hover {
 
 .masthead {
   background-color: #568c36;
-
   color: #fff;
 }
 
@@ -39,9 +37,13 @@ a:hover {
 .nav a {
   display: inline-block;
   padding: .5rem .75rem;
-
   color: #fff;
   text-decoration: none;
+}
+
+.nav a:focus {
+  background: #fff;
+  color: #000;
 }
 
 .nav a:hover {
